@@ -40,3 +40,17 @@ print("Joel is \(joel.age) years old")
 
 let address = (number: 1102, street: "Corbridge Ct", city: "Voorhees", state: "NJ", zip: "08043")
 print("My address is \(address.number) \(address.street) \(address.city), \(address.state) \(address.zip)")
+
+
+// Dictionaries
+let salaries = ["Joel": 5000000, "Jeanette": 10000000, "Mr. Beast": 50000000]
+salaries["Joel"]
+salaries["Jeanette"]
+salaries["Mr. Beast"]
+salaries["Testing"]
+
+let familyDictionary: [String:Int] = ["Joel": 40, "Jeanette": 41, "Ronnie": 14, "Josh": 13, "Jacob": 9]
+familyDictionary["Jeanette"]
+familyDictionary["Foo", default: 0] // Setting a default value instead of returning nil when a key is not found
+familyDictionary["Bar"] ?? 10 // alternate way of setting a default value
+
