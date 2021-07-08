@@ -131,6 +131,8 @@ default:
     print("You did great!")
 }
 
+let passingGrade = 70...100
+
 let names = ["Piper", "Alex", "Suzanne", "Gloria"]
 print(names[0]) // getting individual value
 print(names[0...2]) // getting range of values
